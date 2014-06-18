@@ -8,7 +8,7 @@
 	<string>SUPPORT_PATH=${TM_BUNDLE_SUPPORT:="$TM_BUNDLE_PATH/Support"}
 BROWSER="${SUPPORT_PATH}/browser.rb"
 
-/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby "$BROWSER" "${TM_PROJECT_DIRECTORY:-TM_DIRECTORY}" "$SUPPORT_PATH"</string>
+ruby18 "$BROWSER" "${TM_PROJECT_DIRECTORY:-TM_DIRECTORY}" "$SUPPORT_PATH"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
